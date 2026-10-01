@@ -7,12 +7,12 @@ function Home() {
     <div className="app">
       <h1>Students</h1>
       <div className="home-container">
-       <button className="btn" type="button" onClick={() => navigate("/add")}>
-        Add Student
-    </button>
-    <button className="btn" type="button" onClick={() => navigate("/view")}>
-    View Students
-    </button>
+        <button className="btn" type="button" onClick={() => navigate("/add")}>
+          Add Student
+        </button>
+        <button className="btn" type="button" onClick={() => navigate("/view")}>
+          View Students
+        </button>
       </div>
     </div>
   );

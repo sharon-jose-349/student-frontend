@@ -1,10 +1,12 @@
-import Addinfo from "../components/Addifo"
+import Addinfo from "../components/Addifo";
+
 function Add() {
   return (
     <div className="app">
       <h1>Add Student</h1>
-      <Addinfo/>
+      <Addinfo />
     </div>
-  )
+  );
 }
-export default Add
+
+export default Add;
